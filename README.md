@@ -156,3 +156,7 @@ To avoid this situation, you can use the decoding co attribute with the value as
 <img src = "very-big.jpg" decoding = "async" />
 <p> very important text for the user </p>
 ```
+
+## Reserving vertical space
+
+https://caniuse.com/?search=aspect
