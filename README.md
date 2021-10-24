@@ -141,14 +141,18 @@ https://web.dev/patterns/web-vitals-patterns/
   
 Consider this example:
 
+```html  
 <p> some introductory text </p>
 <img src = "very-big.jpg" />
 <p> very important text for the user </p>
+```  
   
 In this case, the user will have to wait until a large image is loaded to see the important information that follows it.
 
 To avoid this situation, you can use the decoding co attribute with the value async. This will allow the browser to decode the image outside of the main thread, avoiding CPU overhead and not blocking further rendering of DOM elements. That is, the process of decoding the image will be postponed for the future, and the browser, in turn, will be able to render all the content without waiting for the image to load.
-  
+
+```html  
 <p> some introductory text </p>
 <img src = "very-big.jpg" decoding = "async" />
 <p> very important text for the user </p>
+```
