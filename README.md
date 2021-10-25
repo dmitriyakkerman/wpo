@@ -160,3 +160,7 @@ To avoid this situation, you can use the decoding co attribute with the value as
 ## Reserving vertical space
 
 https://caniuse.com/?search=aspect
+  
+## Content-visibility
+ 
+https://codeguida.com/post/3130?fbclid=IwAR1DBqK_KU1OESwJ2zC4uuGrpun6fiep-7XGj18rbvve6v0A8zSVD0feaxE  
