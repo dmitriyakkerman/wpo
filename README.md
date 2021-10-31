@@ -168,3 +168,7 @@ https://codeguida.com/post/3130?fbclid=IwAR1DBqK_KU1OESwJ2zC4uuGrpun6fiep-7XGj18
 ## Optimizing resource loading with Priority Hints
   
 https://web.dev/priority-hints/
+  
+## Content optimizing with inifinite scroll and IOA
+
+https://dev.to/trex777/infinite-scrolling-using-intersection-observer-api-118l
